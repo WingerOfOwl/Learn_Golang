@@ -1,7 +1,11 @@
 package main
-import "cobaMod/CobaFolder"
-import "fmt"
-import test "cobaMod/katas"
+
+import (
+	"cobaMod/CobaFolder"
+	"fmt"
+
+	test "cobaMod/katas"
+)
 
 
 func main() {
@@ -11,6 +15,8 @@ func main() {
 	cobafolder.Mantap()
 	test.Kata() //memanggil katanya itu sebagai packages bukan sebagai folder
 	Boolean()
+	StringAja()
+	Variables1()
 }
 
 func Number() {
@@ -38,4 +44,36 @@ func HelloWorld() {
 func Boolean()  {
 	fmt.Println("Ini", true) // ini boolean true
 	fmt.Println("ini", false) // ini boolean false
+}
+
+func StringAja()  {
+fmt.Println(len("mamang"))	
+fmt.Println("mamang"[2])
+}
+
+func Variables1()  {
+	arya := "arya"
+	zia := 2
+	Ryan := false
+	const CobaConstant = "cobain aja ini mah" // ini Belajar Constanta
+	const(
+		CobaConstant2 = "Ini kalo pake langsung banyak" // ini Constanta yang sekaligus banyak
+		CobaConstant3 = "ini juga"
+	)
+
+	namaDepan := "Ahmad"
+	namaTengah := "Muharam Jiddan"
+	namaBelakang := "Wahono"
+
+	
+
+	
+	fmt.Println(arya)
+	fmt.Println(zia)
+	fmt.Println(Ryan)
+	fmt.Println(CobaConstant)
+	fmt.Println(CobaConstant2)
+	fmt.Println(CobaConstant3)
+	fmt.Println("nama gua", namaDepan, namaTengah, namaBelakang)
+	
 }
