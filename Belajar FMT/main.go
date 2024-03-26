@@ -17,6 +17,7 @@ func main() {
 	Boolean()
 	StringAja()
 	Variables1()
+	changeValue()
 }
 
 func Number() {
@@ -47,8 +48,16 @@ func Boolean()  {
 }
 
 func StringAja()  {
-fmt.Println(len("mamang"))	
-fmt.Println("mamang"[2])
+StringinAja := "mamang"
+StringinAja2 := StringinAja[2]
+StringinAja3 := len(StringinAja)
+mString := string(StringinAja2)
+fmt.Println(StringinAja3)	
+fmt.Println(StringinAja2)
+fmt.Println(mString) // Ini belajar ngubah dari Byte ke String
+ 
+
+ fmt.Println()
 }
 
 func Variables1()  {
@@ -76,4 +85,14 @@ func Variables1()  {
 	fmt.Println(CobaConstant3)
 	fmt.Println("nama gua", namaDepan, namaTengah, namaBelakang)
 	
+}
+
+func changeValue()  {
+	var nilai32 int32 = 32768
+	var nilai64 int64 = int64(nilai32)
+	var nilai16 int16 = int16(nilai32) // yang ini dia minus karena kena number overflow, jadi dia balik lagi ke belakang
+	
+	fmt.Println(nilai32)
+	fmt.Println(nilai64)
+	fmt.Println(nilai16)
 }
