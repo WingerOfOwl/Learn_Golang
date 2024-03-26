@@ -4,7 +4,7 @@ import (
 	"cobaMod/CobaFolder"
 	"fmt"
 
-	test "cobaMod/katas"
+	test "cobaMod/FolderBelajar"
 )
 
 
@@ -18,6 +18,7 @@ func main() {
 	StringAja()
 	Variables1()
 	changeValue()
+	test.TypeDeclaration1()
 }
 
 func Number() {
@@ -57,7 +58,7 @@ fmt.Println(StringinAja2)
 fmt.Println(mString) // Ini belajar ngubah dari Byte ke String
  
 
- fmt.Println()
+ 
 }
 
 func Variables1()  {
