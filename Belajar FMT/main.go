@@ -21,6 +21,7 @@ func main() {
 	test.TypeDeclaration1()
 	test.OperasiMatematika()
 	test.OperasiPerbandingan()
+	test.OperasiBoolean()
 }
 
 func Number() {
