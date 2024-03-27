@@ -19,6 +19,7 @@ func main() {
 	Variables1()
 	changeValue()
 	test.TypeDeclaration1()
+	test.OperasiMatematika()
 }
 
 func Number() {
