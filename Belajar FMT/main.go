@@ -20,6 +20,7 @@ func main() {
 	changeValue()
 	test.TypeDeclaration1()
 	test.OperasiMatematika()
+	test.OperasiPerbandingan()
 }
 
 func Number() {
