@@ -22,6 +22,7 @@ func main() {
 	test.OperasiMatematika()
 	test.OperasiPerbandingan()
 	test.OperasiBoolean()
+	test.BelajarArray1()
 }
 
 func Number() {
