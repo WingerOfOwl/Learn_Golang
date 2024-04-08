@@ -23,6 +23,7 @@ func main() {
 	test.OperasiPerbandingan()
 	test.OperasiBoolean()
 	test.BelajarArray1()
+	test.TypeDataSlice()
 }
 
 func Number() {
