@@ -24,6 +24,7 @@ func main() {
 	test.OperasiBoolean()
 	test.BelajarArray1()
 	test.TypeDataSlice()
+	test.TipeDataMap()
 }
 
 func Number() {
